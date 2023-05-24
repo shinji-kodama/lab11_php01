@@ -7,4 +7,4 @@
 - 
 
 動きは以下のurlで確認してみてください
-https://mimoro.dev/php01/post.php
+https://mimoro.dev/php01/index.php
