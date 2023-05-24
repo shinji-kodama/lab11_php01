@@ -22,21 +22,3 @@ fclose($file);
 header( "Location: ./read.php" ) ;
 exit;
 ?>
-
-
-<html>
-<head>
-<meta charset="utf-8">
-<title>File書き込み</title>
-</head>
-<body>
-
-<h1>書き込みしました。</h1>
-<h2>./data/test.csv を確認しましょう！</h2>
-
-<ul>
-<li><a href="read.php">read.phpを開く</a></li>
-<li><a href="input.php">戻る</a></li>
-</ul>
-</body>
-</html>

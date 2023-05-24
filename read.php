@@ -104,19 +104,19 @@ while (!feof($fp)) {
             $arr[$i+1][$index] = (int)$txt[$i];
             if($i == 1){
                 if($txt[$i]<30){
-                $sum_20 += 1;
+                    $sum_20 += 1;
                 }
                 if($txt[$i]>=30 && $txt[$i]<40){
-                $sum_30 += 1;
+                    $sum_30 += 1;
                 }
                 if($txt[$i]>=40 && $txt[$i]<50){
-                $sum_40 += 1;
+                    $sum_40 += 1;
                 }
                 if($txt[$i]>=50 && $txt[$i]<60){
-                $sum_50 += 1;
+                    $sum_50 += 1;
                 }
                 if($txt[$i]>=60){
-                $sum_60 += 1;
+                    $sum_60 += 1;
                 }
             }
             if($txt[$i]=='m'){
